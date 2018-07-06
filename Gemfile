@@ -27,8 +27,19 @@ gem 'jbuilder', '~> 2.5'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
+gem 'faker'
+gem 'letter_opener'
+gem 'carrierwave'
+gem 'mini_magick'
+gem 'simple_form'
+gem 'bootstrap'
+gem 'ransack'
+gem 'kaminari'
+gem 'rails-i18n'
+gem 'statesman'
+
 # Use ActiveStorage variant
-# gem 'mini_magick', '~> 4.8'
+gem 'jquery-rails'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
