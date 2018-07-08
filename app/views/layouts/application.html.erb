@@ -37,6 +37,8 @@
       </div>
     </nav>
 
+
+    
     
     <div class="container-fluid mt-2">
       <div class="row">
@@ -44,7 +46,7 @@
         <h3> Kategorie </h3>
           <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
             <% (1..9).each do |category| %>
-              <a class="nav-link" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true"><%= "Kategoria#{category}" %></a>
+              <%= link_to "Kategoria#{category}", products_path(category_id: category), class: 'nav-link' %>
             <% end %>
           </div>
         </div>
@@ -57,3 +59,5 @@
 
   </body>
 </html>
+
+
